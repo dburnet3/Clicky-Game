@@ -61,5 +61,5 @@
 
 body {
   background-image: radial-gradient(ellipse at left top, hsla(190, 100%, 60%, 1) 5%, hsla(190, 100%, 60%, 0) 70%);
-  background-color: hsla(190, 50%, 40%, 1);
+  /* background-color: hsla(190, 50%, 40%, 1); */
 }
