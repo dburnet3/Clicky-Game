@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "character_1",
+        "image": "assets/Screen Shot 2019-08-25 at 2.35.33 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "character_2",
+        "image": "assets/Screen Shot 2019-08-25 at 2.35.22 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "character_3",
+        "image": "assets/Screen Shot 2019-08-25 at 2.35.11 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "character_4",
+        "image": "assets/Screen Shot 2019-08-25 at 2.35.02 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "character_5",
+        "image": "assets/Screen Shot 2019-08-25 at 2.34.47 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "character_6",
+        "image": "assets/Screen Shot 2019-08-25 at 2.34.33 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "character_7",
+        "image": "assets/Screen Shot 2019-08-25 at 2.34.23 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "character_8",
+        "image": "assets/Screen Shot 2019-08-25 at 2.34.14 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "character_9",
+        "image": "assets/Screen Shot 2019-08-25 at 2.34.02 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "character_10",
+        "image": "assets/Screen Shot 2019-08-25 at 2.33.54 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "character_11",
+        "image": "assets/Screen Shot 2019-08-25 at 2.33.45 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "character_12",
+        "image": "assets/Screen Shot 2019-08-25 at 2.33.36 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 13,
+        "name": "character_13",
+        "image": "assets/Screen Shot 2019-08-25 at 2.33.23 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 14,
+        "name": "character_14",
+        "image": "assets/Screen Shot 2019-08-25 at 2.33.15 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 15,
+        "name": "character_15",
+        "image": "assets/Screen Shot 2019-08-25 at 2.33.06 PM.png",
+        "clicked": false
+    },
+    {
+        "id": 16,
+        "name": "character_16",
+        "image": "assets/Screen Shot 2019-08-25 at 2.32.58 PM.png",
+        "clicked": false
+    }
+]
