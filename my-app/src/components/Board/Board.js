@@ -9,25 +9,7 @@ class Board extends Component {
         score: 0
     }
 
-    resetGame = () => {
-        this.setState({
-            score: 0,
-            characters: characterCards
-        })
-    }
 
-    handleCorrect = newCharacters => {
-        this.setState({
-            characters: this.shuffleArray(newCharacters),
-            score: this.state.score + 1,
-        });
-
-        if (this.state.score === 11) {
-            this.resetGame();
-            console.log("Nice...you're a winner");
-        }
-
-    };
 
     handleWrong = () => {
         this.resetGame();
@@ -39,7 +21,6 @@ class Board extends Component {
             const newPic = { ...character };
             if (newPic.name === name) {
                 if (!newPic.clicked) {
-                    console.log("Already guessed------------");
                     newPic.clicked = true;
                     guessedCorrect = true;
 
@@ -48,8 +29,21 @@ class Board extends Component {
             }
             return newPic;
         })
-        console.log("GUESSED CORRECT: ", guessedCorrect)
         guessedCorrect ? this.handleCorrect(newCharacters) : this.handleWrong(newCharacters)
+    };
+
+
+
+    handleCorrect = newCharacters => {
+        this.setState({
+            characters: this.shuffleArray(newCharacters),
+            score: this.state.score + 1,
+        });
+
+        if (this.state.score === 11) {
+            this.resetGame();
+        }
+
     };
 
     shuffleArray = characters => {
@@ -59,6 +53,13 @@ class Board extends Component {
         }
         return (characters);
     };
+
+    resetGame = () => {
+        this.setState({
+            score: 0,
+            characters: characterCards
+        })
+    }
 
     render() {
         return (
