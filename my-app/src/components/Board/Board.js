@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../../App.css";
 import Card from '../Card';
 import characterCards from '../../characters.json';
+import Score from "../Score";
 
 class Board extends Component {
     state = {
@@ -42,6 +43,7 @@ class Board extends Component {
                     console.log("Already guessed------------");
                     newPic.clicked = true;
                     guessedCorrect = true;
+
                 }
 
             }
@@ -62,6 +64,10 @@ class Board extends Component {
     render() {
         return (
             <div>
+                <div className="scoreBelt">
+                    <div id="scoreDiv">Score: {this.state.score}</div>
+                </div>
+                <br />
                 <div className="boardWrapper">
                     <div className="board">
                         {this.state.characters.map(character => {
