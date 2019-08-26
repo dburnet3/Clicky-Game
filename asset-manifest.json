@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dburnet3/Clicky-Game/static/css/main.37fee97d.chunk.css",
+    "main.js": "/dburnet3/Clicky-Game/static/js/main.42eca761.chunk.js",
+    "main.js.map": "/dburnet3/Clicky-Game/static/js/main.42eca761.chunk.js.map",
+    "runtime~main.js": "/dburnet3/Clicky-Game/static/js/runtime~main.4bac158d.js",
+    "runtime~main.js.map": "/dburnet3/Clicky-Game/static/js/runtime~main.4bac158d.js.map",
+    "static/js/2.03a9568a.chunk.js": "/dburnet3/Clicky-Game/static/js/2.03a9568a.chunk.js",
+    "static/js/2.03a9568a.chunk.js.map": "/dburnet3/Clicky-Game/static/js/2.03a9568a.chunk.js.map",
+    "index.html": "/dburnet3/Clicky-Game/index.html",
+    "precache-manifest.00f2879d6f2b23d5332c934480c55b0c.js": "/dburnet3/Clicky-Game/precache-manifest.00f2879d6f2b23d5332c934480c55b0c.js",
+    "service-worker.js": "/dburnet3/Clicky-Game/service-worker.js",
+    "static/css/main.37fee97d.chunk.css.map": "/dburnet3/Clicky-Game/static/css/main.37fee97d.chunk.css.map"
+  }
+}
