@@ -82,11 +82,11 @@ body {
     justify-content: center;
 }
 
-.scoreDiv {
+#scoreDiv {
   font-family: 'Graphik',Helvetica,Arial,sans-serif;
   font-size: 40px;
   text-shadow: 3px 3px 5px steelblue;
   color: #1E1E1E;
-  align-items: center;
   font-weight: 600px;
+  align-self:center;
 }
