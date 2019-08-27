@@ -6,7 +6,7 @@ class Header extends Component {
         return (
 
             <div>
-                <img src='assets/daria_banner.png' className="daria" alt='Daria Logo' />
+                <img src='../assets/daria_banner.png' className="daria" alt='Daria Logo' />
 
             </div>
 
